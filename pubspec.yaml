@@ -44,21 +44,23 @@ dev_dependencies:
     sdk: flutter
   flutter_lints: ^2.0.1
   bloc_test: ^9.1.0
-  
+  flutter_native_splash: ^2.2.11
   flutter_launcher_icons: "^0.10.0"
+
+
 flutter_icons:
   android: "launcher_icon"
   ios: true
-  image_path: "assets/icons/appLogo.png"
+  image_path: "assets/icons/appIcon.png"
   min_sdk_android: 21 # android min sdk min:16, default 21
   web:
     generate: true
-    image_path: "assets/icons/appLogo.png"
+    image_path: "assets/icons/appIcon.png"
     background_color: "#hexcode"
     theme_color: "#hexcode"
   windows:
     generate: true
-    image_path: "assets/icons/appLogo.png"
+    image_path: "assets/icons/appIcon.png"
     icon_size: 48 # min:48, max:256, default: 48
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
